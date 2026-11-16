@@ -89,23 +89,7 @@ O projeto implementa relações estruturais fundamentais da POO:
 
 ## 📐 Diagrama de Classes
 
-O diagrama UML completo e o relatório de justificativa técnica estão em [`MODELAGEM.pdf`](./MODELAGEM.pdf). Visão resumida:
-
-```mermaid
-classDiagram
-    class Veterinario
-    class Prontuario
-    class Exame
-    class Equipamento
-
-    Veterinario "1" --> "0..*" Prontuario : responsável por
-    Prontuario "1" *-- "0..*" Exame : composição
-    Exame "0..*" --> "0..*" Equipamento : utiliza
-```
-
-<!-- AJUSTAR: adicione atributos e métodos reais das suas classes -->
-
----
+O diagrama UML completo e o relatório de justificativa técnica estão em [`MODELAGEM.pdf`](./MODELAGEM.pdf).
 
 ## 🧱 Pilares da POO Aplicados
 
